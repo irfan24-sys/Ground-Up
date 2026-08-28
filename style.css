@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3F3F3;
+}
+
+.custom-navbar {
+    width: 100%;
+    height: 90px;
+    background-color: #F3F3F3;
+}
+
+.custom-navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.custom-navbar .nav {
+    margin-left: auto;
+}
+.main{
+    width: 100%;
+    height: 477px;
+    border: 10px;
+}
+.main img{
+    width: 100%;
+    height: 477px;
+}
