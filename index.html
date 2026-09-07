@@ -16,47 +16,276 @@
 <body>
     <div class="home">
         <!-- /*navbar*/ -->
-        <div class="navbar">
-            <nav class="navbar navbar-light custom-navbar">
-                <div class="container">
+        <div class="container-fluid">
+            <nav class="navbar navbar-light custom-navbar" w-100 bg-light style="height: 100px;">
+                <div class="container d-flex justify-content-between align-items-center"
+                    style="height: 90px; padding: 0px 130px;">
 
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="index.html">
                         <img src="images/navbar.png" alt="" width="270" height="75.71">
                     </a>
-                    <ul class="nav ">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+
+                    <ul class="nav">
+                        <li class="nav-item" style="color: #050505;">
+                            <a class="nav-link active" aria-current="page" href="index.html" style="color: #05A93D;">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="about.html" style="color: #050505;">About</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                                aria-expanded="false">Trainigs</a>
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="module.html" role="button"
+                                aria-expanded="false" style="color: #050505;">Trainigs</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                <li><a class="dropdown-item" href="module1.html" style="color: #050505;">Module 1</a></li>
+                                <li><a class="dropdown-item" href="module2.html" style="color: #050505;">Module 2</a></li>
+                                <li><a class="dropdown-item" href="module3.html" style="color: #050505;">Module 3</a></li>
+
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="contact.html" style="color: #050505;">Contact Us</a>
                         </li>
                     </ul>
+
                 </div>
             </nav>
         </div>
         <!-- /*homepage*/ -->
         <div class="main">
-            <div class="mainimg"><img src="images/main.png" alt="main">
-            <div></div>
+            <div class="mainimg"><img src="images/main.png" alt="main" class="w-100" style="height: 600px;">
+                <div class="content position-absolute z-1" style="left: 700px; top: 190px;">
+                    <h1 class=" fs-1 " style="color: #05A93D;font-family: latofont;">Ground up</h1>
+                    <h1 class=" fs-1" style="color: #F67C01;font-family: latofont;" f>Psychedelic Institute.</h1>
+
+                    <p class="para" style="font-family: para;">Ground up Psychedelic Institute supports Mental Health
+                        practitioners<br> to reorient their
+                        Psychotherapeutic approach to support their clients<br> Bottom up (felt lead) processing, which
+                        is activated whilst participating <br>in Psychedelic Medicine experiences.<br><br>
+
+                        Psychedelic Medicine experiences are emergent, intra-relational, felt<br> and here-and-now
+                        encounters. We help therapists link emergent,<br> intra-relational, felt lead, and here and now
+                        approaches to Psychedelic<br> Assisted Psychotherapy.</p>
+
+                    <button type="button" class="btn custom-btn rounded-pill  text-white"
+                        style="background-color: #05A93D;width: 140px; height: 45px;"><a href="about.html" style="color: white; text-decoration: none;">View More</a>
+                         <img src="images/button-icon.png" alt="">
+                    </button>
+                </div>
+
+            </div>
+        </div>
+        <!-- card -->
+        <div class="cards d-flex justify-content-center align-items-center "
+            style="width: 100%; height: 650px; gap: 10px; background-color: #ffff; padding-top: 150px;">
+            <div class="card" style="width: 15rem; height: 15rem;">
+                <img src="images/card1.png" class="card-img-top" alt="logo">
+                <div class="card-body">
+                    <h6>Emergent</h6>
+                    <p class="card-text" style="font-size: 12px;">Emergent- arising within the broader whole of
+                        existence; An interplay from which ones experience organically emerges. This is quite opposite
+                        to a reduction into</p>
+                </div>
+            </div>
+            <div class="card" style="width: 15rem; height: 15rem;">
+                <img src="images/card2.png" class="card-img-top" alt="logo">
+                <div class="card-body">
+                    <h6>Intra-relational</h6>
+                    <p class="card-text" style="font-size: 12px">Intra-relational- a process of relating dynamically and
+                        internally with alive aspects of ourselves.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 15rem; height: 15rem;">
+                <img src="images/card3.png" class="card-img-top" alt="logo">
+                <div class="card-body">
+                    <h6>Felt</h6>
+                    <p class="card-text" style="font-size: 12px;">Felt - Visceral and somatic information becomes
+                        infinitely more accessible and interpretable. The experience is every aspect is sensation lead.
+                    </p>
+                </div>
+            </div>
+            <div class="card" style="width: 15rem; height: 15rem;">
+                <img src="images/card4.png" class="card-img-top" alt="logo">
+                <div class="card-body">
+                    <h6>Here and now</h6>
+                    <p class="card-text" style="font-size: 12px;">Here and now present. A deeper capacity to be in and
+                        with what is happening now, primarily; again via sensation lead information</p>
+                </div>
+            </div>
+        </div>
+        <!-- 3rdiv -->
+        <div class="d-flex flex-column w-100% text-center align-items-center p-5"
+            style=" height: 770px; background-color: #EFFAF6; ">
+            <h2 class="heading">Trainings</h2><br>
+            <p style="font-family: poppins;">This training is for Mental Health practitioners interested in the field of PAP and <br> well as
+                practitioners who are already working in the field looking to develop their<br>skills and orientation in
+                PAP.</p>
+            <div class="trainig-images d-flex gap-3 ">
+                <div class="card" style="width: 18rem;height: 529px;">
+                    <img src="images/trainig-image1.png" class="card-img-top" alt="...">
+                    <div class="p-1-1 text-center ms-4" style=" color:#EFFAF6;background-color: #05A93D; width: 80px; height: 25px;">
+                        Module 1</div>
+                    <div class="card-body text-start ms-2">
+                        <h5>Bridging the Triad of Therapist, Client and Medicine</h5>
+                        <p>Supports therapist to guide clients deeply into their felt experience, both
+                            in Psychotherapy and Non ordinary experiences, as the pathway to deeper, more fundamental
+                            insights and subsequent change.</p>
+                        <div class="m" style="width:100px; height: 30px;">
+                            <a href="module.html" class="text-decoration-none " style="color: #05A93D;">Read More</a>
+                            <img src="images/trainig-imgicon.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;height: 529px;">
+                    <img src="images/trainig-image2.png" class="card-img-top" alt="...">
+                    <div class="p-1-1 text-center ms-4" style="background-color: #05A93D; width: 80px; height: 25px; color:#EFFAF6;">
+                        Module 2</div>
+                    <div class="card-body text-start ms-2">
+                        <h5>Bridging the Triad of Therapist, Client and Medicine</h5>
+                        <p>Supports therapist to guide clients deeply into their felt experience, both in Psychotherapy
+                            and Non ordinary experiences, as the pathway to deeper, more fundamental insights and
+                            subsequent change.</p>
+                        <div class="m" style="width:100px; height: 30px;">
+                            <a href="module.html" class="text-decoration-none " style="color: #05A93D;">Read More</a>
+                            <img src="images/trainig-imgicon.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;height: 529px;">
+                    <img src="images/trainig-image3.png" class="card-img-top" alt="...">
+                    <div class="p-1-1 text-center ms-4" style="background-color: #05A93D; width: 80px; height: 25px; color:#EFFAF6;">
+                        Module 3</div>
+                    <div class="card-body text-start ms-2">
+                        <h5>Bridging the Triad of Therapist, Client and Medicine</h5>
+                        <p>Supports therapist to guide clients deeply into their felt experience, both in Psychotherapy and Non ordinary experiences, as the pathway to deeper, more fundamental insights and subsequent change.</p>
+                        <div class="m" style="width:100px; height: 30px;">
+                            <a href="module.html" class="text-decoration-none " style="color: #05A93D;">Read More</a>
+                            <img src="images/trainig-imgicon.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
-    </div>
+        <!-- about section -->
+        <div class="about" style="height: 500px;">
+            <div class="d-flex align-items-center mx-auto" style="height: 500px; width: 80%; ">
+                <div class="photo" style="margin-left: 72px;">
+                    <img src="images/about.png" alt="" style="height: 400px;">
+                </div>
+                <div class="ms-5 mt-5">
+                    <h2 class="" style="color: #05A93D;">About Robbie</h2>
+                    <p class="mt-3">Robbie has been in clinical private practice for over 18 years and has<br>explored
+                        his own plant medicine path for over 14 years, having<br> worked therapeutically and extensively
+                        with 16 Psychedelic and Plant<br>medicines himself; He has also worked with over 300 clients
+                        clinically<br>to prepare for and integrate their own Psychedelic Medicine and<br>plant medicine
+                        experiences. Robbie’s interest is in bridging the gap<br>between contemporary PAP approaches,
+                        which are strongly<br>academically (top down) influenced, with the learnings of
+                        therapists<br>and medicine people who have learnt directly from and with<br>Psychedelic
+                        medicines themselves.</p>
+                    <button type="button" class="btn custom-btn rounded-pill  text-white"
+                        style="background-color: #05A93D;width: 150px; height: 42px;"><a href="about.html" style="color: white; text-decoration: none;">Read More</a>
+                         <img src="images/button-icon.png" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- contact session -->
+        <div class="align-items-center mx-auto" style="height: 600px; width: 100%; background-color: #EFFAF6;">
+            <div class="d-flex flex-column  mx-auto justify-content-center text-align-left"
+                style="width: 65%; height: 600px; gap: 50px;">
+                <div>
+                    <h1 style="text-align: left;">Contact Us</h1>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <form action="" style="border: none;">
+                                <label for="firstName">First Name* </label>
+                                <input type="text" class="form-control border-0 border-bottom rounded-0 bg-transparent"
+                                    id="firstName">
+                            </form>
+                        </div>
+                        <div class="col">
+                            <form action="" style="border: none;">
+                                <label for="SirtName">Surname* </label>
+                                <input type="text" class="form-control border-0 border-bottom rounded-0 bg-transparent"
+                                    id="SurName">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <form action="">
+                                <label for="email">Email* </label>
+                                <input type="email" class="form-control border-0 border-bottom rounded-0 bg-transparent"
+                                    id="email">
+                            </form>
+                        </div>
+                        <div class="col">
+                            <form action="">
+                                <label for="phone">Phone* </label>
+                                <input type="tel" class="form-control border-0 border-bottom rounded-0 bg-transparent"
+                                    id="phone">
+
+                            </form>
+
+                        </div>
+
+                    </div>
+                    <form class="mt-5">
+                        <label for="textbox">*Message</label>
+                        <textarea class="form-control border-0 border-bottom rounded-0 bg-transparent "
+                            style="height: 120px;"></textarea>
+                    </form>
+                </div>
+                <button type="button" class="btn custom-btn rounded-pill  text-white"
+                    style="background-color: #F67C01;width: 130px; height: 40px;"><a href="contact.html" style="color: white; text-decoration: none;">
+                    Read More <img src="images/button-icon.png" alt=""></a>
+                </button>
+            </div>
+            <!-- footer -->
+            <div class="footer align-items-center justify-content-center d-flex flex-column "
+                style="width: 100%; height: 400px; background-color: #05A93D; padding-top: 70px;">
+                <img src="images/footerlogo.svg" alt="">
+                <div class="list ">
+                    <ul class="list-unstyled d-flex gap-5 pt-4" style="color: #EFFAF6;">
+                        <a href="index.html" style="text-decoration: none; color: white;"><li >Home</li></a>
+                        <a href="about.html" style="text-decoration: none; color: white;"><li>About Us</li></a>
+                        <a href="module.html" style="text-decoration: none; color: white;"><li>Trainig</li></a>
+                        <a href="contact.html" style="text-decoration: none; color: white"><li>Contact Us</li></a>
+                    </ul>
+                </div>
+                <div class="footer-logo d-flex gap-3 mx-auto pt-4">
+                    <div class="facebook d-flex justify-content-center align-items-center"
+                        style="width: 35px; height: 35px; background-color: #F67C01; border-radius: 20px;">
+                        <img src="images/flogo.svg" alt="">
+
+                    </div>
+                    <div class="twitter d-flex justify-content-center align-items-center"
+                        style="width: 35px; height: 35px; background-color: #F67C01; border-radius: 20px;">
+                        <img src="images/2logo.svg" alt="">
+
+                    </div>
+                    <div class="instagram d-flex justify-content-center align-items-center"
+                        style="width: 35px; height: 35px; background-color: #F67C01; border-radius: 20px;">
+                        <img src="images/3logo.svg" alt="">
+
+                    </div>
+                    <div class="youtube d-flex justify-content-center align-items-center"
+                        style="width: 35px; height: 35px; background-color: #F67C01; border-radius: 20px;">
+                        <img src="images/4logo.svg" alt="">
+
+                    </div>
+
+                </div>
+                <div class="horizintal" style="width: 70%; ">
+                    <hr style="color: #EFFAF6;">
+                </div>
+                <p style="color: #EFFAF6;">©2023 Ground up Psychedelic Institute. All Rights Reserved.</p>
+
+            </div>
+
+        </div>
 </body>
 
 </html>
